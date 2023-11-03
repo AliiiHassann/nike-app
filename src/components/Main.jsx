@@ -37,7 +37,7 @@ export const Main = ({
               >
                 {btntext}
               </button>
-              <div className="pt-5 main-imgdiv">
+              <div className="pt-5">
                 <img className=" transition-theme main-img" src={img} alt="" />
               </div>
             </div>
