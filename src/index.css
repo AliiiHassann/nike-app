@@ -1,0 +1,21 @@
+.bg-theme {
+  background-image: linear-gradient(
+    0.2deg,
+    rgba(40, 173, 222, 1) 4.8%,
+    rgb(27, 76, 224) 85.5%
+  );
+}
+.clip-path {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 65%);
+}
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.transition-theme {
+  transition-property: all;
+  transition-duration: 0.7s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

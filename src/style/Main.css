@@ -1,0 +1,141 @@
+.product-btn {
+  font-size: 18px;
+}
+.main-img {
+  height: 40vh;
+  width: auto;
+  /* position: absolute;
+  top: 40px;
+  left: 30px; */
+  transform: rotate(-25deg) translate(0, 0) scale(1, 1);
+}
+.main-img:hover {
+  transform: rotate(0);
+}
+.socials svg {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.socials img:hover {
+  transform: scale(1.1, 1.1);
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.vid-img:hover {
+  transform: scale(1.1, 1.1);
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.landing-btn {
+  transform: scale(1.1, 1.1);
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 4px 6px -1px #e2e8f0,
+    0 2px 4px -2px #e2e8f0;
+}
+.vid-img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 0.75rem;
+  margin: 20px 0px 0px -40px;
+}
+.font-sizing {
+  font-size: 3.5rem;
+  line-height: 1;
+  white-space: nowrap;
+  opacity: 0.8;
+}
+.main-clip-thing {
+  height: 85vh;
+  z-index: 10;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  width: auto;
+  opacity: 1;
+}
+@media (min-width: 991px) {
+.main-img {
+  margin-right: 40px;
+}
+}
+
+@media (max-width: 991px) {
+  .main-img {
+    height: 28vh;
+  }
+  .vid-img {
+    width: 7rem;
+    height: 7rem;
+  }
+  .main-clip-thing {
+    height: 75vh;
+  }
+  .font-sizing {
+    font-size: 2.5rem;
+    line-height: 1;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .main-img {
+    height: 20vh;
+  }
+  .main-clip-thing {
+    height: 65vh;
+  }
+  .font-sizing {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .main-img {
+    height: 18vh;
+  }
+  .vid-img {
+    width: 6rem;
+    height: 6rem;
+    margin: 10px 0px 0px -15px;
+  }
+  .font-sizing {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-size: 24px;
+    text-align: center;
+  }
+  .landing-btn {
+    font-size: 0.875rem;
+    line-height: 1;
+    white-space: nowrap;
+  }
+}
+@media (max-width: 480px) {
+  .main-img {
+    height: 15vh;
+  }
+  .vid-img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .font-sizing {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-size: 20px;
+    text-align: center;
+  }
+  .landing-btn {
+    font-size: 0.875rem;
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  .vid-img {
+    margin-top: 20px;
+    margin-left: -15px;
+  }
+}

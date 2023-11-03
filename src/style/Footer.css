@@ -1,0 +1,38 @@
+ul {
+  list-style: none;
+}
+.footer {
+  background-image : linear-gradient(.2deg,rgba(40,173,222,1) 4.8%,rgb(27,76,224) 85.5%);
+  color : white
+}
+.footer-title {
+  font-size: 1.125rem;
+    line-height: 1.75rem;
+    text-transform: uppercase;
+}
+.footer-link {
+  font-size: .875rem;
+  line-height: 1.25rem;
+}
+@media (max-width: 550px)
+{
+  .footer-link {
+  font-size: .75rem;
+  line-height: 1rem;
+}
+}
+
+@media (max-width: 767px)
+{
+  .footer-title {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+}
+@media (max-width: 991px)
+{
+  .footer-title {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+}
