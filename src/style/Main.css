@@ -1,6 +1,9 @@
 .product-btn {
   font-size: 18px;
 }
+.main-imgdiv {
+  margin: 0px -70px;
+}
 .main-img {
   height: 40vh;
   width: auto;

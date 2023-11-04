@@ -13,6 +13,7 @@ export const Main = ({
           opacity: "1",
           position: "relative",
           paddingTop: "140px",
+          paddingBottom: "50px",
         }}
       >
         <div className="d-grid align-items-center photos-landing m-1">
@@ -37,7 +38,7 @@ export const Main = ({
               >
                 {btntext}
               </button>
-              <div className="pt-5">
+              <div className="pt-5 main-imgdiv">
                 <img className=" transition-theme main-img" src={img} alt="" />
               </div>
             </div>
